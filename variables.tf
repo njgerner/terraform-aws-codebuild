@@ -142,7 +142,7 @@ variable "source_type" {
 }
 
 variable "source_git_clone_depth" {
-  type        = string
+  type        = "string"
   default     = ""
   description = "Truncate git history to this many commits."
 }
